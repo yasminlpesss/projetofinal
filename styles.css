@@ -1,0 +1,118 @@
+@media only screen and (max-device-width: 900px) {
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  border: 2px solid #000000;
+  padding: 30px 40px;
+  width: 60%;
+  height: 80%;
+  min-width: 500px;
+}
+
+
+.nome{
+
+font-family: 'Sigmar', cursive;
+font-size: 53px;
+
+
+  
+  
+}
+
+
+.novatarefacontainer {
+  background-color: #3003b9;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+
+.novatarefacontainer input {
+  flex: 3;
+  font-size: 1rem;
+  border: 2px solid #d1d3d4;
+  border-radius: 5px;
+  padding: 12px;
+  font-weight: 500;
+}
+
+.novatarefacontainer input:focus {
+  outline: none;
+  border-color: #3003b9;
+}
+
+.novatarefabotao {
+  flex: 1;
+  border-radius: 5px;
+  font-weight: 500;
+  height: 100%;
+  font-size: 1rem;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  padding: 12px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.tarefascontainer {
+  background-color: #fff;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 70%;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.tarefaitem i {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.tarefaitem i:hover {
+  cursor: pointer;
+}
+
+.error {
+  border: 2px solid red !important;
+}
+
+.error::placeholder {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
